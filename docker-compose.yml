@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+
+  app:
+    image: joeydekort/intec-admin-application:dev
+    ports:
+      - "8083:8083"
